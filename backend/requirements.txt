@@ -1,0 +1,17 @@
+# Core dependencies
+tensorflow>=2.9.0
+numpy
+matplotlib
+
+# Image processing
+Pillow
+
+# Web scraping
+selenium
+webdriver-manager
+requests
+
+# Machine learning utilities
+scikit-learn
+tqdm
+

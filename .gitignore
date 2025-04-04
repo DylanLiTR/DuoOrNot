@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Folders
+backend/raw_data/
+backend/dataset/
+backend/Google-Image-Scraper/
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Selenium ChromeDriver (if not part of repo)
+backend/chromedriver*
+
+# Ignore large generated files or logs
+*.log
+
+# Ignore frontend dependencies
+frontend/node_modules/
+
+# Ignore frontend build files (if applicable)
+frontend/dist/
+
+# Ignore environment variables (if you use an .env file)
+.env

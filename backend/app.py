@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173", "https://duo-or-not.vercel.app/"])
+CORS(app, origins=["http://localhost:5173", "https://duo-or-not.vercel.app"])
 
 IMG_SIZE = (224, 224)
 

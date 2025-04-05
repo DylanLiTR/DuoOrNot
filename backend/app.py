@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"])
+CORS(app, origins=["http://localhost:5173, https://duo-or-not.vercel.app/"])
 
 model = load_model("duolingo_detector.keras")
 print("✅ Model loaded")

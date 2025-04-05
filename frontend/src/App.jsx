@@ -22,7 +22,7 @@ function App() {
     formData.append("image", file);
 
     setLoading(true);
-    const res = await fetch("http://localhost:5000/predict", {
+    const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}`, {
       method: "POST",
       body: formData,
     });

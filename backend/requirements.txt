@@ -1,8 +1,9 @@
 # Core dependencies
-tensorflow>=2.9.0
+tensorflow
 numpy
 flask
 flask_cors
+scipy
 
 # Image processing
 Pillow

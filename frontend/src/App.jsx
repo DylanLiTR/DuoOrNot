@@ -33,7 +33,7 @@ function App() {
   };
 
   return (
-    <div class="container">
+    <div className="container">
       <h1>Duo or Not?</h1>
 
       <input type="file" accept="image/*" onChange={handleFileChange} />

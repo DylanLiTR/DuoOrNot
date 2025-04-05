@@ -4,6 +4,7 @@ numpy
 flask
 flask_cors
 scipy
+gunicorn
 
 # Image processing
 Pillow
